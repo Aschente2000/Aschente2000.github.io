@@ -1,0 +1,146 @@
+/* Dylan Daniels
+ B&B Boostrap
+ 4/17/2020 */
+
+.nav-item{
+  float: left;
+  padding-left:200px;
+  padding-right:100px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+ /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align:center;
+}
+h1{
+  text-align: center;
+  color: #34d8eb;
+}
+p{
+  text-align: center;
+}
+.Container{
+  width: 70%;
+  margin:auto;
+}
+.carousel, .slide{
+  /* width: 70%; */
+  margin:auto;
+  padding-bottom: 2em;
+}
+/* form styles */
+form{
+  float:left;
+  width:50%;
+}
+.form-group{
+  padding-top: 30px;
+}
+/* google map styles */
+.map-container-5{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-5 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+/* bootstrap 4 footer styles */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i|Roboto');
+body{
+	padding: 0;
+	margin: 0;
+
+}
+footer{
+	padding-top: 60px;
+	background: url(images/background.png) center center;
+	background-size: cover;
+	background-color: #ddd;
+	height: 360px;
+
+
+
+}
+h1{
+	text-align: center;
+}
+h2{
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 32px;
+	text-align: center;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+a,i{
+	color: #fff;
+	font-family: 'Roboto';
+	text-align: center;
+}
+.footerText{
+	color:#fff;
+	text-align: center;
+}
+hr{
+	    border-top: 1px solid rgba(210, 90, 90, 0.1);
+	width: 100%;
+}
+ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	padding-bottom: 30px;
+}
+li{
+	padding: 5px;
+	margin: 0;
+	text-align: center;
+}
+a{
+	padding: 5px;
+	text-transform: capitalize;
+	font-size: 18px;
+}
+a:hover{
+	text-decoration: none;
+}
+
+.fa{
+
+	padding-top: 10px;
+	color: #fff;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	display: inline-block;
+	margin: 0 auto;
+}
+.download-icon .fa{
+	font-size: 50px;
+	padding: 10px;
+}
+.social .fa{
+	padding-top: 30px;
+	font-size: 30px;
+	transition: .9s;
+}
+.social .fa:hover{
+	transition: 1s;
+	transform: scale(1.1);
+	color: #ddd;
+}
+@media(max-width: 768px){
+	footer{
+		height: auto !important;
+	}
+	h2{
+		font-size: 30px;
+	}
+}
